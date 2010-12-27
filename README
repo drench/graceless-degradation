@@ -1,1 +1,13 @@
 With all this talk of "graceful browser degredation" who is speaking for the other side? With this plugin, visitors still using Internet Explorer 6 get the experience their browser demands.
+
+Current features:
+
+* Comic Sans fonts everywhere!
+* Emphasis tags (bold, italic, strong, and underline) blink!
+* <hr> tags become animated rainbows!
+
+Future features:
+
+* Animated mailbox graphic added to "mailto:" links!
+* "Best Viewed in Internet Explorer" icon in the footer!
+* Maybe other things!
