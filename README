@@ -3,11 +3,11 @@ With all this talk of "graceful browser degredation" who is speaking for the oth
 Current features:
 
 * Comic Sans fonts everywhere!
-* Emphasis tags (bold, italic, strong, and underline) blink!
+* Emphasis tags (bold, italic, strong, and underline) blink! Even though IE doesn't support the <blink> tag!
 * <hr> tags become animated rainbows!
+* Animated mailbox graphic added to "mailto:" links!
 
 Future features:
 
-* Animated mailbox graphic added to "mailto:" links!
 * "Best Viewed in Internet Explorer" icon in the footer!
 * Maybe other things!
