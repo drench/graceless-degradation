@@ -6,6 +6,26 @@ jQuery(document).ready(function () {
 
 //    jQuery('<img src="' + base + 'img/mail/' + Math.floor(Math.random() * 7) + '.gif>').insertBefore('a[href^="mailto:"]');
 
+    var imgdim = [
+        [100,62], [60,38], [32,32], [100,67], [125,90], [50,66], [117,45]
+    ];
+
+    var animail = function (m) {
+        var img = document.createElement('img');
+        var n = Math.floor(Math.random() * imgdim.length);
+        img.width = imgdim[n][0];
+        img.height = imgdim[n][1];
+        img.src = base + 'img/mail/' + n + '.gif';
+        m.parentNode.insertBefore(img, m);
+    };
+
+    var mailto = document.getElementsByTagName('a');
+    for (var i=0,m; m=mailto[i]; ++i) {
+        if (m.href && m.href.match(/^mailto:/i)) {
+            animail(m);
+        }
+    }
+
     var blinkers = ['b', 'i', 'strong', 'u'];
     var blinks = [];
 
