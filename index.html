@@ -1,80 +1,87 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!doctype>
+<html>
+    <head>
+        <title>Graceless Degradation: Wordpress Uglification for Outmoded Browsers</title>
+    <style>
+body {
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #ccc;
+    background-color: black;
+}
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ul {
+    list-style-type: disc;
+    margin-left: 0;
+    list-style-position: inside;
+    text-indent: -1em;
+}
+li {
+    padding-bottom: 0.5em;
+}
+.comicsans {
+    font-family: "Comic Sans MS";
+}
+h1 { color: #fff; }
+strong {
+    color: #fff;
+}
+    </style>
+    </head>
+    <body>
+        <a href="https://github.com/drench/graceless-degradation"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://assets2.github.com/img/4c7dc970b89fd04b81c8e221ba88ff99a06c6b61?repo=&url=http%3A%2F%2Fs3.amazonaws.com%2Fgithub%2Fribbons%2Fforkme_right_white_ffffff.png&path=" alt="Fork me on GitHub"></a>
+        <h1>Graceless Degradation</h1>
+        <h2>Giving IE 6 browsers the experience they demand!</h2>
+        <p>
+With all this talk of <a href="http://duckduckgo.com/?q=graceful+browser+degradation">graceful browser degradation</a>,
+who is speaking for <strong>the other side</strong>?
+        </p>
+        <p><strong>Graceless Degradation</strong> is a Wordpress plugin that
+gives visitors still using Internet Explorer 6 an appropriate user experience.
+        </p>
 
-	<title>drench/graceless-degradation @ GitHub</title>
-	
-	<style type="text/css">
-		body {
-  		margin-top: 1.0em;
-  		background-color: #99ea4d;
-		  font-family: "Helvetica,Arial,FreeSans";
-  		color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-		h1 { font-size: 3.8em; color: #6615b2; margin-bottom: 3px; }
-		h1 .small { font-size: 0.4em; }
-		h1 a { text-decoration: none }
-		h2 { font-size: 1.5em; color: #6615b2; }
-    h3 { text-align: center; color: #6615b2; }
-    a { color: #6615b2; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-		pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-	</style>
-	
-</head>
+        <p>
+            Here's your expected, <strong>graceful</strong>
+            Wordpress experience using <strong>Mac OS X</strong> and
+            Google's <strong>Chrome browser</strong>:
+        </p>
+        <p>
+            <img src="graceful-chrome.png" width="699" height="557" title="Splendid!">
+        </p>
 
-<body>
-  <a href="http://github.com/drench/graceless-degradation"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+        <p>
+            Here's the same page using <strong>Windows XP</strong> with
+            <strong>Internet Explorer 6</strong>:
+        </p>
+        <p>
+            <img src="graceless-ie6.gif" width="700" height="560" title="So ugly! He even did a poor job cropping the image!">
+        </p>
 
-  <div id="container">
+        <ul>
+            <li><strong class="comicsans">Comic Sans</strong> fonts everywhere!</li>
+            <li>Emphasis tags (bold, italic, strong, and underline) blink!
+Even though IE doesn't support the &lt;blink&gt; tag!</li>
+            <li>&lt;hr&gt; tags become animated rainbows! They're not moving in the 2-frame animated gif above, but trust me, they're <strong>animated</strong>.</li>
+            <li>Animated mailbox graphics added to "mailto:" links!</li>
+        </ul>
 
-    <div class="download">
-      <a href="http://github.com/drench/graceless-degradation/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/drench/graceless-degradation/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
+        <h2>Installation is simple!</h2>
+        <p>Just download the plugin,
+<a href="https://github.com/drench/graceless-degradation/tarball/master">tarball</a> or <a href="https://github.com/drench/graceless-degradation/zipball/master">zip file</a>
+(your choice!), unpack it under <strong>wp-content/plugins</strong>, and
+activate the plugin in your Wordpress console.</p>
+        <p><strong>That's it!</strong> Graceless Degradation has no
+moving parts or sharp edges.</p> 
 
-    <h1><a href="http://github.com/drench/graceless-degradation">graceless-degradation</a>
-      <span class="small">by <a href="http://github.com/drench">drench</a></span></h1>
+        <h2>Who are you?</h2>
+        <p><strong>Dan Rench</strong>. I'm a <a href="http://dren.ch/portfolio">freelance programmer</a> from
+Shermerville, IL, USA.</p>
 
-    <div class="description">
-      Give Internet Explorer 6 visitors the experience their browser demands!
-    </div>
+        <h2>Want to make this even better?</h2>
+        <p><a href="https://github.com/drench/graceless-degradation">Fork it on github!</a></p>
 
-    <h2>Authors</h2>
-<p>Dan Rench (drench+github@gmail.com)<br/><br/>      </p>
-<h2>Contact</h2>
-<p>Daniel Rench (drench+github@gmail.com)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/drench/graceless-degradation/zipball/master">zip</a> or
-      <a href="http://github.com/drench/graceless-degradation/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/drench/graceless-degradation</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/drench/graceless-degradation">drench/graceless-degradation</a>
-    </div>
-
-  </div>
-
-  
-</body>
+    </body>
 </html>
