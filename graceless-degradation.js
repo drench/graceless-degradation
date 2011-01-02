@@ -2,7 +2,7 @@ jQuery(document).ready(function () {
 
     var base = "/wp-content/plugins/graceless-degradation/";
 
-    jQuery('hr').replaceWith('<div><img width="100%" src="' + base + 'img/colorbar.gif"></div>');
+    jQuery('hr').replaceWith('<div><img width="600" height="1" src="' + base + 'img/colorbar.gif"></div>');
 
 //    jQuery('<img src="' + base + 'img/mail/' + Math.floor(Math.random() * 7) + '.gif>').insertBefore('a[href^="mailto:"]');
 
