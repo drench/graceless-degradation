@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Graceless Degradation
-Plugin URI: http://github.com/drench/graceless-degradation
+Plugin URI: http://drench.github.com/graceless-degradation/
 Description: With all this talk of "graceful browser degradation" who is speaking for the other side? With this plugin, visitors still using Internet Explorer 6 get the experience their browser demands.
 Author: Dan Rench
-Version: 0.1
+Version: 0.11
 Author URI: http://dren.ch/
 */
 
