@@ -14,8 +14,8 @@ We hear about "graceful browser degradation" but who speaks for the other side? 
 Graceless Degradation checks to see if the current browser is MSIE 6. If it's not, it does nothing. If it is, it injects CSS and JavaScript into the page that:
 
 * Puts Comic Sans fonts everywhere!
-* Makes emphasis tags (bold, italic, strong, and underline) blink! Even though IE doesn't support the <blink> tag!
-* Turns <hr> tags into animated rainbows!
+* Makes emphasis tags (bold, italic, strong, and underline) blink! Even though IE doesn't support the `<blink>` tag!
+* Turns `<hr>` tags into animated rainbows!
 * Finds "mailto:" links and tacks on animated mailbox graphics!
 
 = Plugin's Official Site =
