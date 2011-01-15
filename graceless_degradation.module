@@ -1,0 +1,10 @@
+<?php
+
+function graceless_degradation_init() {
+	if (preg_match('/^Mozilla\/\d\.0 \(compatible; MSIE 6\b/', $_SERVER['HTTP_USER_AGENT'])) {
+		$here = drupal_get_path('module', 'graceless_degradation');
+
+		drupal_add_css("$here/graceless_degradation.css");
+		drupal_add_js("$here/graceless_degradation.js");
+	}
+}

@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
 
-    var base = "/wp-content/plugins/graceless-degradation/";
+    var base = "/sites/all/modules/graceless_degradation/";
 
     jQuery('hr').replaceWith('<div><img width="600" height="1" src="' + base + 'img/colorbar.gif"></div>');
 

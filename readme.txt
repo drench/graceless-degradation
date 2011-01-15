@@ -1,11 +1,8 @@
+
 === Graceless Degradation ===
-Contributors: drench
+
+Contributors: drench, Branko Collin
 Donate link: http://drench.github.com/graceless-degradation/#donate
-Tags: humor,novelty,silly,useless
-Requires at least: 3.0
-Tested up to: 3.0.3
-License: Expat
-Stable tag: trunk
 
 We hear about "graceful browser degradation" but who speaks for the other side? Give your IE6 visitors the experience their browser demands.
 
@@ -18,9 +15,9 @@ Graceless Degradation checks to see if the current browser is MSIE 6. If it's no
 * Turns `<hr>` tags into animated rainbows!
 * Finds "mailto:" links and tacks on animated mailbox graphics!
 
-= Plugin's Official Site =
+= Module's Official Site =
 
-http://drench.github.com/graceless-degradation/
+Based on a Wordpress plugin with the same name: http://drench.github.com/graceless-degradation/
 
 == Installation ==
 
@@ -36,10 +33,3 @@ This plugin only "supports" IE 6, for various reasons. The main one is I don't h
 
 1. The normal page under a 'tasteful' browser (Chrome with OS X)
 2. The same page Gracelessly Degraded (IE6 with Windows XP)
-
-== Changelog ==
-
-= 0.11 =
-
-Initial release
-

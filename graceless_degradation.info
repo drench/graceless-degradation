@@ -1,0 +1,4 @@
+; $Id$
+name = Graceless Degradation
+description = This module gives Internet Explorer 6 users the web experience they crave.
+core = 6.x
