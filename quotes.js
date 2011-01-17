@@ -349,6 +349,10 @@ jQuery(document).ready(function () {
           u: "Geef IE6-surfers de experience die bij hun browser hoort",
           q: "https://twitter.com/Koen_Verbrugge/status/26741768963751936"
        },
+       {
+          u: "https://twitter.com/keithpitt/status/26811352290955264",
+          q: "my favourite"
+       }
     ];
 
     var quoteit = function () {
