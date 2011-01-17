@@ -29,7 +29,56 @@ h1 { color: #fff; }
 strong {
     color: #fff;
 }
-    </style>
+
+.quotes {
+    visibility: hidden;
+    display: block;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 10%;
+    margin-left: 0.5em;
+    z-index: -9999;
+}
+.quotelink {
+    text-align: center;
+    font-size: medium;
+}
+.balloon {
+    margin: 1em auto;
+    font: normal 16px/0.9 "Comic Sans MS", sans-serif;
+    width: 8em;
+}
+.balloon > div {
+    background: #eee;
+}
+.balloon .content {
+    color: #000;
+    line-height: 1.2em;
+    padding: 1em;
+    text-align:center;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+}
+.balloon .pointer {
+    height: 1em;
+}
+.balloon .pointer span {
+    background: #000;   /* body background */
+    width: 49%;
+    height: 100%;
+}
+.balloon .pointer .left {
+    -moz-border-radius-topright: 1em;
+    -webkit-border-top-right-radius: 1em;
+    float: left;
+}
+.balloon .pointer .right {
+    -moz-border-radius-topleft: 1em;
+    -webkit-border-top-left-radius: 1em;
+    float: right;
+}
+</style>
 <script type="text/javascript">
 
     if (document.domain == 'drench.github.com') {
@@ -105,6 +154,20 @@ Shermerville, IL, USA. Care to <a href="https://twitter.com/kree10">follow me on
             <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
             <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
+
+        <div class="quotes">
+            <div class="balloon">
+                <div class="content">The <em>Style</em> is a Balloon.</div>
+                <div class="pointer">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                </div>
+            </div>
+            <div class="quotelink"><a href="#">- @something</a></div>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script> 
+        <script src="quotes.js"></script>
 
     </body>
 </html>
