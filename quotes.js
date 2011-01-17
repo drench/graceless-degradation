@@ -310,44 +310,44 @@ jQuery(document).ready(function () {
           q: "lol"
        },
        {
-          u: "Bravo good sir, nice wordpress plugin for IE6 users",
-          q: "https://twitter.com/kremdela/status/24834702133174272"
+          q: "Bravo good sir, nice wordpress plugin for IE6 users",
+          u: "https://twitter.com/kremdela/status/24834702133174272"
        },
        {
-          u: "Does Drupal 7 have a Graceless Degradation module yet?",
-          q: "https://twitter.com/drewish/status/24875713089769472"
+          q: "Does Drupal 7 have a Graceless Degradation module yet?",
+          u: "https://twitter.com/drewish/status/24875713089769472"
        },
        {
-          u: "Does Drupal 7 have a Graceless Degradation module yet? Someone needs to write this!",
-          q: "https://twitter.com/designerbrent/status/24878461487161344"
+          q: "Does Drupal 7 have a Graceless Degradation module yet? Someone needs to write this!",
+          u: "https://twitter.com/designerbrent/status/24878461487161344"
        },
        {
-          u: "graceless degradation rules!",
-          q: "https://twitter.com/aghosttrain/status/24963191108800513"
+          q: "graceless degradation rules!",
+          u: "https://twitter.com/aghosttrain/status/24963191108800513"
        },
        {
-          u: "'Graceless Degradation' would be a halfway decent name for a band.",
-          q: "http://i-m-just-sayin.blogspot.com/2011/01/graceless-degradation.html"
+          q: "'Graceless Degradation' would be a halfway decent name for a band.",
+          u: "http://i-m-just-sayin.blogspot.com/2011/01/graceless-degradation.html"
        },
        {
-          u: "heh.",
-          q: "https://twitter.com/coldiebear/status/24986480636067840"
+          q: "heh.",
+          u: "https://twitter.com/coldiebear/status/24986480636067840"
        },
        {
-          u: "Oh how I'd love to get away with using this...",
-          q: "http://faradaycagefight.tumblr.com/post/2734687588/graceless-degradation-wordpress-uglification-for"
+          q: "Oh how I'd love to get away with using this...",
+          u: "http://faradaycagefight.tumblr.com/post/2734687588/graceless-degradation-wordpress-uglification-for"
        },
        {
-          u: "I feel like this is inaccurate",
-          q: "https://twitter.com/sofimi/status/26673653026390016"
+          q: "I feel like this is inaccurate",
+          u: "https://twitter.com/sofimi/status/26673653026390016"
        },
        {
-          u: "makes unicorns and rainbows. Well...just rainbows, actually",
-          q: "https://twitter.com/medwezys/status/26693363822493696"
+          q: "makes unicorns and rainbows. Well...just rainbows, actually",
+          u: "https://twitter.com/medwezys/status/26693363822493696"
        },
        {
-          u: "Geef IE6-surfers de experience die bij hun browser hoort",
-          q: "https://twitter.com/Koen_Verbrugge/status/26741768963751936"
+          q: "Geef IE6-surfers de experience die bij hun browser hoort",
+          u: "https://twitter.com/Koen_Verbrugge/status/26741768963751936"
        },
        {
           u: "https://twitter.com/keithpitt/status/26811352290955264",
