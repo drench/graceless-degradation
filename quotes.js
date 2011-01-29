@@ -352,6 +352,18 @@ jQuery(document).ready(function () {
        {
           u: "https://twitter.com/keithpitt/status/26811352290955264",
           q: "my favourite"
+       },
+       {
+          q: "This WordPress plugin has my vote to become a WordPress feature",
+          u: "https://twitter.com/spanazzi/status/29331086790107136"
+       },
+       {
+          u: "https://twitter.com/rhapsody88/status/30671508615462912",
+          q: "my new favourite wordpress plugin"
+       },
+       {
+          u: "https://twitter.com/amayer_/status/31091702571737088",
+          q: "this is pretty phenomenal"
        }
     ];
 
