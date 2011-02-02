@@ -364,6 +364,14 @@ jQuery(document).ready(function () {
        {
           u: "https://twitter.com/amayer_/status/31091702571737088",
           q: "this is pretty phenomenal"
+       },
+       {
+          u: "https://twitter.com/chexee/status/32003433225527296",
+          q: "Best. Plugin. Ever."
+       },
+       {
+          u: "https://twitter.com/chriscoyier/status/32569824777338880",
+          q: "Best name ever"
        }
     ];
 
