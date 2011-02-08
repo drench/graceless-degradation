@@ -372,6 +372,10 @@ jQuery(document).ready(function () {
        {
           u: "https://twitter.com/chriscoyier/status/32569824777338880",
           q: "Best name ever"
+       },
+       {
+          u: "https://twitter.com/brianarn/status/35004745156399105",
+          q: "Progressive Enhancement or Graceful Degradation have nothing on Graceless Degradation. Love it."
        }
     ];
 
