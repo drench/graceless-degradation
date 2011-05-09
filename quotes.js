@@ -376,6 +376,10 @@ jQuery(document).ready(function () {
        {
           u: "https://twitter.com/brianarn/status/35004745156399105",
           q: "Progressive Enhancement or Graceful Degradation have nothing on Graceless Degradation. Love it."
+       },
+       {
+          u: "https://twitter.com/AlanInteractive/status/66661858551136256",
+          q: "The perfect IE6 solution"
        }
     ];
 
