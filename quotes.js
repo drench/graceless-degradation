@@ -380,6 +380,10 @@ jQuery(document).ready(function () {
        {
           u: "https://twitter.com/AlanInteractive/status/66661858551136256",
           q: "The perfect IE6 solution"
+       },
+       {
+          u: "https://twitter.com/micmcg/status/70022545209962496",
+          q: "Graceless degradation is the future"
        }
     ];
 
