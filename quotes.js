@@ -384,6 +384,10 @@ jQuery(document).ready(function () {
        {
           u: "https://twitter.com/micmcg/status/70022545209962496",
           q: "Graceless degradation is the future"
+       },
+       {
+          u: "https://twitter.com/excid3/status/183270544702054400",
+          q: "Quick! Install this on all your sites!"
        }
     ];
 
