@@ -388,6 +388,10 @@ jQuery(document).ready(function () {
        {
           u: "https://twitter.com/excid3/status/183270544702054400",
           q: "Quick! Install this on all your sites!"
+       },
+       {
+          u: "https://twitter.com/kijart/status/199400778442608640",
+          q: "El plugin de WordPress definitivo"
        }
     ];
 
